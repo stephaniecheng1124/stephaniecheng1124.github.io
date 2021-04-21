@@ -3246,6 +3246,9 @@ input, select, textarea {
 		}
 
 			/*Steph Edit*/
+			#footer .inner section h2 {
+				margin-bottom: 0.3em;		
+			}
 			#footer .inner section ul {
 				padding-left: 0em;
 				list-style-type: none;
