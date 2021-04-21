@@ -171,7 +171,7 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #ffffff;
+		color: #ffffff;   /*Nav Bar Font color - Steph Edit*/
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
@@ -3245,6 +3245,26 @@ input, select, textarea {
 			flex-direction: row;
 		}
 
+			/*Steph Edit*/
+			#footer .inner section ul {
+				padding-left: 0em;
+				
+			}
+			#footer .inner section .contact li {
+				display: block;
+				padding-left: 0em;
+				
+			}
+			#footer .inner section ul li a{
+				color: #c03c3c;
+				padding-left:0em;
+				
+			}
+			#footer .inner section ul li a span{
+				padding-left:0.5em;
+				
+			} /*Steph edit add space between envelope and email*/
+
 			#footer > .inner > * > :last-child {
 				margin-bottom: 0;
 			}
@@ -3289,7 +3309,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 5em 0 0 0;
 			}
 
 				#footer > .inner section:nth-child(1) {
