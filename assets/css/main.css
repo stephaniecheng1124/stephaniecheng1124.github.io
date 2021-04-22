@@ -1073,6 +1073,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1317,7 +1318,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1562,7 +1562,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1803,6 +1803,10 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 2em;
 						}
+
+				#footer > .inner {
+					flex-direction: row;
+				}	
 
 		}
 
@@ -2064,17 +2068,20 @@ input, select, textarea {
 		}
 
 /* Icons */
-
+	#follow {
+		text-align: right;
+	}
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
 		margin: -1em 0 2em -1em;
+		text-align: right;
 	}
 
 		ul.icons li {
 			display: inline-block;
-			padding: 1em 0 0 1em;
+			padding: 1em 0 0 0.8em;
 		}
 
 /* Form */
@@ -2840,6 +2847,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			#footer .inner {
+				flex-direction: row;
+			}
 			.tiles {
 				margin: 0;
 			}
@@ -3363,11 +3373,28 @@ input, select, textarea {
 				padding: 3em 0 1em 0 ;
 			}
 
+			
+					#footer > .inner .copyright {
+						margin-top: 3em;
+					}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			
+			#follow {
+				text-align: start;
+			}
+			ul.icons {
+				text-align: start;
+			}
+
 				#footer > .inner {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
+					-moz-flex-direction: row;
+					-webkit-flex-direction: row;
+					-ms-flex-direction: row;
+					flex-direction: row;
 				}
 
 					#footer > .inner section:nth-child(1) {
@@ -3388,14 +3415,6 @@ input, select, textarea {
 					#footer > .inner .copyright {
 						margin-top: 3em;
 					}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#footer > .inner .copyright {
-				margin-top: 3em;
-			}
 
 				#footer > .inner .copyright li {
 					border-left: 0;
