@@ -3241,7 +3241,8 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		/*Steph edit footer background color*/
+		background-color: #f6f6f659;
 	}
 
 		#footer > .inner {
