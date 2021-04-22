@@ -2879,6 +2879,7 @@ input, select, textarea {
 		padding: 00 ;
 	}
 
+
 		#header .logo {
 			border-bottom: 0;
 			color: inherit;
@@ -2913,6 +2914,8 @@ input, select, textarea {
 			top: 2em;
 			z-index: 10000;
 		}
+
+		
 
 		#header nav ul li a[href="#menu"] {
 			display: none;
