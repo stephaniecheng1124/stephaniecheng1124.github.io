@@ -118,6 +118,7 @@ input, select, textarea {
 		bottom: 0px;
 		left: 0px;
 		opacity: 0.02;
+		z-index: -100;   /*Overlay pattern moves behidn button*/
   }
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
