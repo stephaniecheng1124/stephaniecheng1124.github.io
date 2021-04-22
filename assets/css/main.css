@@ -192,6 +192,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	/*Steph edit remove space after p*/
 	p.nomargin {
 		margin: 0 0 0em 0;
 	}
@@ -3054,7 +3055,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #000000ad; /*Steph Edit burger menu background color*/
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3063,6 +3064,14 @@ input, select, textarea {
 
 	#menu h2 {
 		color:rgb(214, 75, 75);
+	}
+
+	#menu ul li {
+		color:rgb(214, 75, 75);
+	}
+
+	#menu ul li a span {
+		margin-left: 0.3em;
 	}
 
 		#menu > .inner {
