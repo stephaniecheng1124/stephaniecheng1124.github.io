@@ -3187,7 +3187,7 @@ input, select, textarea {
 				display: inline-block;
 				position: absolute;
 				width: 50px;
-				top: 1em;
+				top: 1.2em;  /*Steph edit - burger menu location*/
 				right: 0.5em;
 			}
 
